@@ -3,7 +3,7 @@ from flask import Flask, jsonify, request, render_template
 app = Flask(__name__)
 
 movies = {
-    "action": ["Mad Max1: Fury Road", "John Wick", "Die Hard"],
+    "action": ["Mad Max2: Fury Road", "John Wick", "Die Hard"],
     "drama": ["The Godfather", "Forrest Gump", "Shawshank Redemption"],
     "comedy": ["The Hangover", "Superbad", "Step Brothers"]
 }
